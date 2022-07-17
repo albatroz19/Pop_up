@@ -1,0 +1,21 @@
+#box{
+    background-color: bisque;
+    height:300px;
+    width:700px;
+    visibility: hidden;
+}
+
+body{
+    background-color: aqua;
+}
+
+#box.show{
+    visibility: visible;
+}
+
+.closeBtn{
+    height: 5%;
+    width: 5%;
+    float: right;
+    margin-top: -40px;
+}
